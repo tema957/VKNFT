@@ -1,0 +1,22 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "My Binance Smart Chain project",
+    "main": "index.js",
+    "scripts": {
+      "test": "truffle test",
+      "compile": "truffle compile",
+      "deploy": "truffle migrate --network bsc",
+      "verify": "truffle run verify MyToken MyNFT --network bsc"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.3.0",
+      "truffle": "^5.4.0",
+      "dotenv": "^10.0.0",
+      "@truffle/hdwallet-provider": "^2.2.0",
+      "web3": "^1.5.0"
+    }
+  }
+  
